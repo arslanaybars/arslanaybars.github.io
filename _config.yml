@@ -48,13 +48,14 @@ social_media:
   linkedin: arslanaybars
   # mastodon: your_username
   # medium: your_username
-  stackoverflow: arslanaybars
+  stackoverflow: 2541423/arslanaybars
   # telegram: your_username
-  twitter: arslanybars
+  twitter: arslanaybars
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
+  cv : arslanaybars
 
 topics:
   - name: C#
