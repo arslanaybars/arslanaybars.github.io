@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: light
 
 plugins:
@@ -17,42 +17,78 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 25
   exclude:
     archived: false
     forks: true
     projects:
-    # - repo-name
+     - MenuDroid-Server
+     - CSharp-Workspace
+     - C-Programlama-Ornekleri
+     - FilmReplikleri
+     - C_Struct_Program_Ornegi
+     - C-Programlama-Lab-Sorulari-Karabuk-Universitesi
+     - MovieInformative
+     - Sayi_Tahmin_Oyunu
+     - Android-Workspace
+     - hello-github
+     - FinikeWebSite
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: arslanaybars
   # mastodon: your_username
   # medium: your_username
-  # stackoverflow: your_user_id
+  stackoverflow: arslanaybars
   # telegram: your_username
-  # twitter: your_username
+  twitter: arslanybars
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: C#
+    web_url: https://github.com/dotnet/csharplang
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/C_Sharp_wordmark.svg/464px-C_Sharp_wordmark.svg.png
 
-  - name: Web design
+  - name: .NET Core
+    web_url: https://github.com/dotnet/core
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png
 
-  - name: Sass
+  - name: ASP.NET Core
+    web_url: https://github.com/aspnet/AspNetCore
+    image_url: https://codeopinion.com/wp-content/uploads/2018/07/Bitmap-MEDIUM_ASP.NET-Core-Logo_2colors_Square_RGB-300x300.png
+
+  - name: SQL Server
+    web_url: https://github.com/microsoft/sql-server-samples
+    image_url: https://d1.awsstatic.com/logos/partners/microsoft/logo-SQLServer-vert.c0cb0df0cd1d6c8469d792abb5929239da36611a.png
+
+  - name: Entity Framework Core, Dapper
     web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+    image_url: https://habrastorage.org/webt/en/rv/1c/enrv1ctva0jyb5s6mlpawv_v0gi.jpeg
+
+  - name: Azure DevOps
+    web_url: https://github.com/azure-devops
+    image_url: https://avatars2.githubusercontent.com/u/23645104?s=200&v=4
+
+  - name: Git
+    web_url: https://github.com/azure-devops
+    image_url: https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png
+
+  - name: Vue.js
+    web_url: https://github.com/vuejs/vue
+    image_url: https://vuejs.org/images/logo.png
+
+  # - name: Scrum
+  #   web_url: https://www.scrum.org/
+  #   image_url: https://dzone.com/storage/temp/8232723-scrum-blog.png

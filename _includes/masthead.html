@@ -7,9 +7,13 @@
 <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
 <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
 <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-  {{ user.bio }}
-</p>
-
+    {{ user.bio }}
+  </p>
+  <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
+      I enjoy being challenged and working on new projects. I am always trying to learn new
+      skills and development techniques. In particular, I like to experience new cultures and learn
+      new languages as part of my career progression.
+          </p>
 {% if include.metadata %}
   <div class="f4 mb-6">
     {% if user.name %}
